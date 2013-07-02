@@ -8,10 +8,10 @@
 		"rywa/silverstripe-foundation": "dev-master",
 		"rywa/silverstripe-foundation-forms": "dev-master",
 		"silverstripe/userforms": "dev-master",
-		"silverstripe/usertemplates": "dev-master",
 		"ccampbell/chromephp": "4.1.0"
 	},
 	"suggest": {
+		"silverstripe/usertemplates": "Override template or layout for a page",
 		"silverstripe/sqlite3": "Use SQLite3 for small applications or faster unit testing",
 		"silverstripe/googlesitemaps": "Create a sitemap.xml file including links to your URL's"
 	},
