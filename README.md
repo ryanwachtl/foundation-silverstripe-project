@@ -8,6 +8,6 @@ Installation
 
 1. `git clone https://github.com/ryanwachtl/silverstripe-init.git my/app/dir`
 
-2. Edit database, admin user, and other details in `\_ss\_environemnt.php`
+2. Edit database, admin user, and other details in `_ss_environemnt.php`
 
 3. `composer install`
