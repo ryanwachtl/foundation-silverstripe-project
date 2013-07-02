@@ -6,8 +6,7 @@ A customized composer based SilverStripe project starter. Suited for LAMP stacks
 Installation
 =================
 
-1. `git clone https://github.com/ryanwachtl/silverstripe-init.git my/app/dir`
-
-2. Edit database, admin user, and other details in `_ss_environemnt.php`
-
-3. `composer install`
+1. `git clone https://github.com/ryanwachtl/silverstripe-init.git /your/project/dir`
+2. `cd /your/project/dir`
+3. configure your environment by editing `_ss_environemnt.php`
+4. `composer install`
