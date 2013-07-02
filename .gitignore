@@ -1,0 +1,8 @@
+.DS_Store
+/assets/*
+/framework/
+/vendor/
+/sqlite3/
+/cms/
+silverstripe.log
+silverstripe-cache

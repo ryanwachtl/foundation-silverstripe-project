@@ -1,0 +1,26 @@
+{
+	"name": "rywa/silverstripe-init",
+	"description": "A Composer-based SilverStripe Framework and CMS Project",
+	"require": {
+		"php": ">=5.4.0",
+		"silverstripe/framework": "3.1.x-dev",
+		"silverstripe/cms": "3.1.x-dev",
+		"rywa/silverstripe-foundation": "dev-master",
+		"rywa/silverstripe-foundation-forms": "dev-master",
+		"silverstripe/userforms": "dev-master",
+		"silverstripe/usertemplates": "dev-master",
+		"ccampbell/chromephp": "4.1.0"
+	},
+	"suggest": {
+		"silverstripe/sqlite3": "Use SQLite3 for small applications or faster unit testing",
+		"silverstripe/googlesitemaps": "Create a sitemap.xml file including links to your URL's"
+	},
+	"config": {
+		"process-timeout": 1200
+	},
+	"scripts": {
+		"post-install-cmd": "php ./framework/cli-script.php dev/build",
+		"post-update-cmd": "php ./framework/cli-script.php dev/build"
+	},
+	"minimum-stability": "dev"
+}
