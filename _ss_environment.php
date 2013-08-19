@@ -63,7 +63,7 @@ define('SS_DATABASE_NAME', '');
 define('SS_DATABASE_CHOOSE_NAME', false);
 
 /**
- * A suffix to add to the database name.
+ * Specify database port.
  */
 //define('SS_DATABASE_PORT', '');
 
@@ -92,7 +92,7 @@ define('SS_DATABASE_CHOOSE_NAME', false);
 /**
  * This causes errors to be written to the silverstripe.log file in the same directory as this file.
  */
-define('SS_ERROR_LOG', __DIR__ . '/silverstripe.log');
+define('SS_ERROR_LOG', 'silverstripe.log');
 
 /**
  * If you set this define, all emails will be redirected to this address.
