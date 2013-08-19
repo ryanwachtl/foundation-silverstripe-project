@@ -1,8 +1,31 @@
+# miscellania
 .DS_Store
-/assets/*
-/framework/
-/vendor/
-/sqlite3/
-/cms/
+bin
+
+# ignore all files in the vendor/ directory
+vendor/
+
+# ignore all files in the assets/ directory
+assets/*
+
+# ignore SilverStripe Framework and CMS
+/framework
+/cms
+
+# ignore _ss_environment.php file (uncomment if file is left in root)
+#_ss_environment.php
+
+# ignore cache directory and log file
+/silverstripe-cache
 silverstripe.log
-silverstripe-cache
+
+# ignore composer managed modules
+/foundationforms
+/reports
+/userforms
+/sqlite3
+
+# ignore themes
+# comment out if you'll be commiting the foundatin theme to your git repo
+# also remove "rywa/silverstripe-foundation" from composer.json
+/themes
