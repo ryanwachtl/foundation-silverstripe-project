@@ -2,10 +2,10 @@
 	"name": "rywa/silverstripe-init",
 	"description": "A Composer-based SilverStripe Framework and CMS Project",
 	"require": {
-		"php": ">=5.4.0",
-		"silverstripe/framework": "3.1.x-dev",
-		"silverstripe/cms": "3.1.x-dev",
-		"rywa/silverstripe-foundation": "dev-master",
+		"php": ">=5.3.26",
+		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~3.1",
+		"rywa/silverstripe-foundation": "4.3.*",
 		"rywa/silverstripe-foundation-forms": "dev-master",
 		"silverstripe/userforms": "dev-master",
 		"ccampbell/chromephp": "4.1.0"
@@ -13,7 +13,14 @@
 	"suggest": {
 		"silverstripe/usertemplates": "Override template or layout for a page",
 		"silverstripe/sqlite3": "Use SQLite3 for small applications or faster unit testing",
-		"silverstripe/googlesitemaps": "Create a sitemap.xml file including links to your URL's"
+		"silverstripe/postgresql": "SilverStripe now has tentative support for PostgreSQL ('Postgres')",
+		"silverstripe/googlesitemaps": "Create a sitemap.xml file including links to your URL's",
+		"silverstripe/blog": "SilverStripe Blog Module",
+		"silverstripe/html5": "HTML5 support for SilverStripe",
+		"silverstripe/taxonomy": "Provide extra taxonomy for cataloguing the data.",
+		"unclecheese/betterbuttons": "Adds new form actions and buttons to GridField detail form for usability enhancements.",
+		"unclecheese/event-calendar": "Event Calendar for the SilverStripe CMS",
+		"ajshort/silverstripe-gridfieldextensions": "A collection of useful grid field components"
 	},
 	"config": {
 		"process-timeout": 1200
