@@ -88,7 +88,7 @@ define('SS_DATABASE_CHOOSE_NAME', false);
  * Set the directory to store assets, defaults to assets.
  */
 //define('ASSETS_DIR', 'assets');
-	
+
 /**
  * This causes errors to be written to the silverstripe.log file in the same directory as this file.
  */
