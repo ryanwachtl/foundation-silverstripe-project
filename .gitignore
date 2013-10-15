@@ -26,6 +26,6 @@ silverstripe.log
 /sqlite3
 
 # ignore themes
-# comment out if you'll be commiting the foundatin theme to your git repo
+# comment out if you'll be committing the foundation theme to your git repo
 # also remove "rywa/silverstripe-foundation" from composer.json
 /themes
