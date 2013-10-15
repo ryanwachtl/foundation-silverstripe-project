@@ -3,11 +3,13 @@
 	"description": "A Composer-based SilverStripe Framework and CMS Project",
 	"require": {
 		"php": ">=5.3.26",
-		"silverstripe/framework": "~3.1",
-		"silverstripe/cms": "~3.1",
+		"silverstripe/framework": "3.1.x@stable",
+		"silverstripe/cms": "3.1.x@stable",
 		"rywa/silverstripe-foundation": "4.3.*",
 		"rywa/silverstripe-foundation-forms": "dev-master",
-		"silverstripe/userforms": "dev-master",
+		"silverstripe/userforms": "dev-master"
+	},
+	"require-dev": {
 		"ccampbell/chromephp": "4.1.0"
 	},
 	"suggest": {
@@ -26,8 +28,8 @@
 		"process-timeout": 1200
 	},
 	"scripts": {
-		"post-install-cmd": "php ./framework/cli-script.php dev/build",
-		"post-update-cmd": "php ./framework/cli-script.php dev/build"
+		"post-install-cmd": "php ./framework/cli-script.php dev/build flush=all",
+		"post-update-cmd": "php ./framework/cli-script.php dev/build flush=all"
 	},
 	"minimum-stability": "dev"
 }
