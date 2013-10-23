@@ -4,7 +4,7 @@
  * SilverStripe Project
  */
 global $project;
-$project = 'app';
+$project = 'mysite';
 
 /**
  * _ss_environment.php
