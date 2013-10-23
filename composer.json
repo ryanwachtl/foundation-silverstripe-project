@@ -5,7 +5,7 @@
 		"php": ">=5.3.26",
 		"silverstripe/framework": "3.1.x@stable",
 		"silverstripe/cms": "3.1.x@stable",
-		"rywa/silverstripe-foundation": "4.3.*",
+		"rywa/silverstripe-foundation": "~1.0",
 		"rywa/silverstripe-foundation-forms": "dev-master",
 		"silverstripe/userforms": "dev-master"
 	},
