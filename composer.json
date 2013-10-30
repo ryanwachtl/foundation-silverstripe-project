@@ -2,7 +2,7 @@
 	"name": "rywa/silverstripe-init",
 	"description": "A Composer-based SilverStripe Framework and CMS Project",
 	"require": {
-		"php": ">=5.3.26",
+		"php": ">=5.3.2",
 		"silverstripe/framework": "3.1.x@stable",
 		"silverstripe/cms": "3.1.x@stable",
 		"rywa/silverstripe-foundation": "~1.0",
@@ -28,8 +28,8 @@
 		"process-timeout": 1200
 	},
 	"scripts": {
-		"post-install-cmd": "php ./framework/cli-script.php dev/build flush=all",
-		"post-update-cmd": "php ./framework/cli-script.php dev/build flush=all"
+		"post-install-cmd": "php ./framework/cli-script.php dev/build",
+		"post-update-cmd": "php ./framework/cli-script.php dev/build"
 	},
 	"minimum-stability": "dev"
 }
