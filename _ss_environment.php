@@ -85,9 +85,14 @@ define('SS_DATABASE_CHOOSE_NAME', false);
 //define('TEMP_FOLDER', '');
 
 /**
- * Set the directory to store assets, defaults to assets.
+ * Set the directory to store assets, defaults to `assets`.
  */
 //define('ASSETS_DIR', 'assets');
+
+/**
+* Alternatively, set the full path to store assets, defaults to `BASE_PATH . '/' . ASSETS_DIR`.
+*/
+//define('ASSETS_PATH', '');
 
 /**
  * This causes errors to be written to the silverstripe.log file in the same directory as this file.
