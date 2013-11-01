@@ -90,8 +90,8 @@ define('SS_DATABASE_CHOOSE_NAME', false);
 //define('ASSETS_DIR', 'assets');
 
 /**
-* Alternatively, set the full path to store assets, defaults to `BASE_PATH . '/' . ASSETS_DIR`.
-*/
+ * Alternatively, set the full path to store assets, defaults to `BASE_PATH . '/' . ASSETS_DIR`.
+ */
 //define('ASSETS_PATH', '');
 
 /**
