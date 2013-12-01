@@ -38,7 +38,7 @@ define('SS_DATABASE_SERVER', 'localhost');
 /**
  * The database username (mandatory)
  */
-define('SS_DATABASE_USERNAME', '');
+define('SS_DATABASE_USERNAME', 'root');
 
 /**
  * The database password (mandatory)
