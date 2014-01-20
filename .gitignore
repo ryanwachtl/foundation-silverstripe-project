@@ -21,6 +21,10 @@ silverstripe.log
 
 # ignore composer managed modules
 /foundationforms
+/foundationinterchange
+/betterbuttons
+/googlesitemaps
+/gridfieldextensions
 /reports
 /userforms
 /sqlite3
