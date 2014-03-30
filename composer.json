@@ -5,19 +5,27 @@
 		"php": ">=5.3.2",
 		"silverstripe/framework": "3.1.x@stable",
 		"silverstripe/cms": "3.1.x@stable",
-		"rywa/silverstripe-foundation": "~1.0",
-		"rywa/silverstripe-foundation-forms": "dev-master",
-		"rywa/silverstripe-foundation-interchange": "dev-master",
 		"silverstripe/userforms": "dev-master",
 		"silverstripe/googlesitemaps": "dev-master",
+		"ajshort/silverstripe-gridfieldextensions": "dev-master",
+		"sheadawson/silverstripe-timednotices": "dev-master",
+		"sheadawson/silverstripe-editlock": "dev-master",
+		"sheadawson/silverstripe-blocks": "dev-master",
+		"sheadawson/silverstripe-userswitcher": "dev-master",
 		"unclecheese/betterbuttons": "dev-master",
-		"ajshort/silverstripe-gridfieldextensions": "dev-master"
+		"rywa/silverstripe-foundation": "~1.0",
+		"rywa/silverstripe-foundation-forms": "dev-master",
+		"rywa/silverstripe-foundation-interchange": "dev-master"
 	},
 	"require-dev": {
-		"ccampbell/chromephp": "4.1.0"
+		"silverstripe/docsviewer": "dev-master",
+		"silverstripe/behat-extension": "dev-master",
+		"silverstripe/buildtools": "dev-master",
+		"ccampbell/chromephp": "4.1.0",
+		"phpunit/phpunit": "~3.7.0"
 	},
 	"config": {
-		"process-timeout": 1200
+		"process-timeout": 900
 	},
 	"scripts": {
 		"post-install-cmd": "php ./framework/cli-script.php dev/build",
