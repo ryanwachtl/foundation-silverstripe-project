@@ -1,0 +1,16 @@
+# Required
+scheme: sftp
+host: xxx
+username: xxx
+password: xxx
+
+# Optional
+path: xxx
+exclude:
+  - .gitignore
+  - dandelion.yml
+  - silverstripe-cache
+  - _ss_environment.php
+  - silverstripe.log
+  - cgi-bin
+  - assets

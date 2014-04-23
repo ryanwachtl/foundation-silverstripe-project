@@ -23,6 +23,7 @@
 !/composer.json
 !/mysite/
 !/_ss_environment.sample.php
+!/dandelion.sample.yml
 !/docs/
 !/favicon.ico
 

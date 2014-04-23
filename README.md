@@ -8,7 +8,7 @@ What's This About
 
 Hi, I'm Ryan, the creator of a suite of modules and theme that aims to provide you with a seamless experience using ZURB Foundation within your next SilverStripe project. This started out of a need I had for doing content-driven rapid prototyping with SilverStripe CMS. While designed for prototyping, this project starter can easily be adapted to form a base for your next custom design using ZURB Foundation.
 
-This is a composer-based project and comes with a sample _ss_environment file for configuration along with a sample dandelion file for doing incremental git deployments over ssh or sftp.
+This is a composer-based project and comes with a sample _ss_environment file for configuration along with a sample [dandelion](https://github.com/scttnlsn/dandelion) file for doing incremental git deployments over ssh or sftp.
 
 What's Inside
 =================
