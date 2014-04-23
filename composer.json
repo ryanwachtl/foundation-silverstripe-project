@@ -18,10 +18,7 @@
 	},
 	"require-dev": {
 		"silverstripe/docsviewer": "dev-master",
-		"silverstripe/behat-extension": "dev-master",
-		"silverstripe/buildtools": "dev-master",
-		"ccampbell/chromephp": "4.1.0",
-		"phpunit/phpunit": "~3.7.0"
+		"ccampbell/chromephp": "4.1.0"
 	},
 	"config": {
 		"process-timeout": 900
