@@ -1,7 +1,7 @@
 Installation
 =================
 
-1. `php composer.phar create-project foundation-silverstripe-project/orm YOUR_PROJECT_DIR dev-master`
+1. `php composer.phar create-project rywa/foundation-silverstripe-project YOUR_PROJECT_DIR dev-master`
 2. configure your environment and database settings by editing `_ss_environemnt.php` (renamed from `_ss_environemnt.sample.php`)
 3. `cd YOUR_PROJECT_DIR`
 4. run `php ./framework/cli-script.php dev/build`
