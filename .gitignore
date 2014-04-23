@@ -1,35 +1,37 @@
-# miscellania
-.DS_Store
-bin
+#########
+# Ignore All
+#########
+/*
+/*/
 
-# ignore all files in the vendor/ directory
-vendor/
+# /vendor/
+# /_ss_environment.php
+# /dandelion.yml
+# /framework/
+# /cms/
+# /assets/
+# /silverstripe-cache/
+# /silverstripe.log
+# /themes/
 
-# ignore all files in the assets/ directory
-assets/*
+#########
+# Project Whitelist
+#########
+!/LICENSE
+!/README.md
+!/.htaccess
+!/composer.json
+!/mysite/
+!/_ss_environment.sample.php
+!/docs/
+!/favicon.ico
 
-# ignore SilverStripe Framework and CMS
-/framework
-/cms
+#########
+# Custom Modules Whitelist
+#########
+# !/MY_CUSTOM_MODULE
 
-# ignore _ss_environment.php file (uncomment if file is left in root)
-#_ss_environment.php
-
-# ignore cache directory and log file
-/silverstripe-cache
-silverstripe.log
-
-# ignore composer managed modules
-/foundationforms
-/foundationinterchange
-/betterbuttons
-/googlesitemaps
-/gridfieldextensions
-/reports
-/userforms
-/sqlite3
-
-# ignore themes
-# comment out if you'll be committing the foundation theme to your git repo
-# also remove "rywa/silverstripe-foundation" from composer.json
-/themes
+#########
+# Custom Themes Whitelist
+#########
+# !/themes/MY_CUSTOM_THEME/

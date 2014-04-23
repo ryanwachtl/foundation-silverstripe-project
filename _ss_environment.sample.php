@@ -2,7 +2,10 @@
 
 /**
  * Configure SilverStripe from the _ss_environment.php file.
- * Usage: Put "require_once('conf/ConfigureFromEnv.php');" into your _config.php file.
+ *
+ * Edit this file and rename from _ss_environment.sample.php to _ss_environment.php.
+ * Put "require_once('conf/ConfigureFromEnv.php');" into your _config.php file.
+ * http://doc.silverstripe.org/framework/en/trunk/topics/environment-management
  */
 
 /**
