@@ -37,7 +37,7 @@ What's Inside
 How to Get Started
 =================
 
-[Installation](https://github.com/ryanwachtl/foundation-silverstripe-project/blob/master/docs/index.md)
+[Installation](https://github.com/ryanwachtl/foundation-silverstripe-project/blob/master/mysite/docs/en/index.md)
 
 License
 =================
