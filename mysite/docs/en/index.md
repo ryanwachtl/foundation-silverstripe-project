@@ -1,14 +1,30 @@
+# Installation Requirements
+
+* composer
+* sake
+* silversmith
+* dandelion
+* compass
+
 # Installation
 
-`php composer.phar create-project rywa/foundation-silverstripe-project YOUR_PROJECT_DIR dev-master`
+`composer create-project rywa/foundation-silverstripe-project SITE_ROOT_DIR dev-master`
 
-Rename `_ss_environment.sample.php` to `_ss_environment.php` and configure your environment and database settings.
+Rename `_ss_environment.sample.php` to `_ss_environment.php` and configure your environment and database settings
 
-`cd YOUR_PROJECT_DIR`
+`cd SITE_ROOT_DIR`
 
-`php ./framework/cli-script.php dev/build`
+`sake dev/build`
 
 When you run `dev/build` SilverStripe will use the information in `_ss_environment.php` to connect to or create your database and populate it with default records for a fresh SilverStripe CMS project.
+
+`silversmith init`
+
+Create your structure in `/mysite/_fixtures.txt`
+
+Then run `silversmith build-fixtures -seeding-level [1, 2, 3]`
+
+Rename `dandelion.sample.yml` to `dandelion.yml` and configure your deployments
 
 ## Notes on composer `update` vs `install`
 

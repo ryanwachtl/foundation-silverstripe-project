@@ -1,37 +1,44 @@
 #########
-# Ignore All
+# Misc
 #########
-/*
-/*/
-
-# /vendor/
-# /_ss_environment.php
-# /dandelion.yml
-# /framework/
-# /cms/
-# /assets/
-# /silverstripe-cache/
-# /silverstripe.log
-# /themes/
+.DS_Store
+.buildpath
+.project
+.settings
+.idea
+.DS_Store
+tools/phing-metadata
 
 #########
-# Project Whitelist
+# SilverStripe Framework and CMS
 #########
-!/LICENSE
-!/README.md
-!/.htaccess
-!/favicon.ico
-!/composer.json
-!/mysite/
-!/_ss_environment.sample.php
-!/dandelion.sample.yml
+vendor
+framework
+cms
+assets/*
+silverstripe-cache
+silverstripe.log
 
 #########
-# Custom Modules Whitelist
+# SilverStripe Themes
 #########
-# !/MY_CUSTOM_MODULE
+themes/*
 
 #########
-# Custom Themes Whitelist
+# Modules
 #########
-# !/themes/MY_CUSTOM_THEME/
+userforms
+googlesitemaps
+gridfieldextensions
+timednotices
+editlock
+userswitcher
+betterbuttons
+foundation-forms
+foundation-interchange
+
+#########
+# Environment and Deployment
+#########
+#_ss_environment.php
+dandelion.yml
