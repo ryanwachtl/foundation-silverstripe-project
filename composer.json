@@ -23,9 +23,5 @@
 	"config": {
 		"process-timeout": 900
 	},
-	"scripts": {
-		"post-install-cmd": "php ./framework/cli-script.php dev/build",
-		"post-update-cmd": "php ./framework/cli-script.php dev/build"
-	},
 	"minimum-stability": "dev"
 }
